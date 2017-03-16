@@ -1,6 +1,6 @@
 {
   "name": "KeySpring",
-  "version": "1.0",
+  "version": "1.0.1",
   "manifest_version": 2,
   "description": "Helps Springeteers work",
   "icons": { "128": "icon.png" },
@@ -16,7 +16,7 @@
     "call": {
       "suggested_key": {
         "default": "Ctrl+C",
-        "mac": "Ctrl+C"
+        "mac": "MacCtrl+C"
       },
       "description": "Call person on helpscout"
     }
