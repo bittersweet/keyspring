@@ -1,0 +1,24 @@
+{
+  "name": "KeySpring",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Helps Springeteers work",
+  "icons": { "128": "icon.png" },
+  "background": {
+    "persistent": false,
+    "scripts": ["keyspring.js"]
+  },
+  "permissions": [
+    "activeTab",
+    "https://secure.helpscout.net/"
+    ],
+  "commands": {
+    "call": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+5",
+        "mac": "Command+Shift+5"
+      },
+      "description": "Call person on helpscout"
+    }
+  }
+}
