@@ -13,7 +13,7 @@
     "https://secure.helpscout.net/"
     ],
   "commands": {
-    "caly": {
+    "call": {
       "suggested_key": {
         "default": "Ctrl+C",
         "mac": "MacCtrl+C"
